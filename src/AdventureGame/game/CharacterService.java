@@ -49,6 +49,7 @@ public class CharacterService{
         }
         int selectedCharacterIndex = input;
         myObj.close();
+
         setSelectedMainCharacter(getMainCharacterList().get(selectedCharacterIndex-1));
         System.out.println("selected character:  "+selectedMainCharacter.toString());
     }
